@@ -1,0 +1,6 @@
+framework module Pods_KSSaveImage_Example {
+  umbrella header "Pods-KSSaveImage_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

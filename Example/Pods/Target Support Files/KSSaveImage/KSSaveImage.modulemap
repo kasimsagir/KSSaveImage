@@ -1,0 +1,6 @@
+framework module KSSaveImage {
+  umbrella header "KSSaveImage-umbrella.h"
+
+  export *
+  module * { export * }
+}
