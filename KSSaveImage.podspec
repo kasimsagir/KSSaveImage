@@ -20,13 +20,15 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
 TODO: Add long description of the pod here. LONG LONG description
                        DESC
-
+                       
   s.homepage         = 'https://github.com/kontarcher/KSSaveImage'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'kontarcher' => 'kasim.sagir@hotmail.com' }
   s.source           = { :git => 'https://github.com/kontarcher/KSSaveImage.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+
+  s.swift_version = '3.2'
 
   s.ios.deployment_target = '8.0'
 
